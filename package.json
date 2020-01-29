@@ -23,5 +23,7 @@
     "url": "https://github.com/rubendmatos1985/typescript-cypress/issues"
   },
   "homepage": "https://github.com/rubendmatos1985/typescript-cypress#readme",
-  "dependencies": {}
+  "dependencies": {
+    "rimraf": "^3.0.1"
+  }
 }
