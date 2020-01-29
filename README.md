@@ -6,6 +6,7 @@ With typescript testing is a bit more predictable.
 # IMPORTANT!!!
 
 This plugin works only with webpack and is tested with the version fo webpack 4.41.5
+The plugin create a temporal folder with name "tests_build" inside cypress folder. After close the browser the folder will be deleted
 
 # Instalation
 
