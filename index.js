@@ -47,7 +47,10 @@ const typescriptCypressTranspiler = _module => file => {
   const compilerRunner = compilerSetup(file)
 
   const fileWatcher = fs.watch(file.filePath, () => {
-    compilerRunner((_, fileFromCompiler) => fileFromCompiler.emit('rerun'), log)
+    compilerRunner(
+      (_, fileFromCompiler) => fileFromCompiler.emit('rerun'),
+      console.log
+    )
   })
 
   file.on('close', () => {
