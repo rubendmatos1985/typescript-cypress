@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const fs = require('fs')
+const rimraf = require('rimraf')
 const typescriptCypressTranspiler = _module => file => {
   function buildConfigObject({ entry, output, filename }) {
     return {
