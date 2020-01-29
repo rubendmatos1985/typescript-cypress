@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/rubendmatos1985/typescript-cypress.git"
   },
+  "bundledDependencies": [
+    "rimraf"
+  ],
   "keywords": [
     "cypress",
     "typescript-cypress-webpack",
