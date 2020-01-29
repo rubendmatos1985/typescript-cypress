@@ -1,7 +1,7 @@
 # What is this
 
 Cypress needs a plugin to process or transpile typescript and then it reads the tests from this bundle.
-With typescript testing is a bit more predictable. This plugin works.
+With typescript testing is a bit more predictable.
 
 # IMPORTANT!!!
 
