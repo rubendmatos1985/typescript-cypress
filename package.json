@@ -1,0 +1,27 @@
+{
+  "name": "typescript-cypress",
+  "version": "1.0.0",
+  "description": "typescript transpiler plugin for cypress with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rubendmatos1985/typescript-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "typescript-cypress-webpack",
+    "typescript",
+    "react-typescript-cypress-webpack",
+    "cypress-plugin"
+  ],
+  "author": "rubendmatos1985",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubendmatos1985/typescript-cypress/issues"
+  },
+  "homepage": "https://github.com/rubendmatos1985/typescript-cypress#readme",
+  "dependencies": {}
+}
