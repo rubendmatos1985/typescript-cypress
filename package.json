@@ -1,6 +1,6 @@
 {
   "name": "typescript-cypress",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "typescript transpiler plugin for cypress with webpack",
   "main": "index.js",
   "scripts": {
