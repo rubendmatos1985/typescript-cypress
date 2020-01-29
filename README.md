@@ -1,7 +1,7 @@
 # What is this
 
 Cypress needs a plugin to process or transpile typescript and then it reads the tests from this bundle.
-With typescript testing is a bit more predictable.
+With typescript, testing is a bit more predictable.
 
 # IMPORTANT!!!
 
@@ -17,7 +17,7 @@ The plugin create a temporal folder with name "tests_build" inside cypress folde
 In the file cypres/plugins/index.js
 
 ```
-    const typescriptCypressTranspiler = require('typescript-cypress')
+    const { typescriptCypressTranspiler } = require('typescript-cypress')
 
    const _module = {
     rules: [
