@@ -1,12 +1,12 @@
 # What is this
 
-Cypress needs a plugin to process or transpile typescript and then it reads the tests from this bundle.
-With typescript, testing is a bit more predictable.
+Cypress needs a plugin to process or transpile TypeScript and then it read the tests from this bundle.
+With TypeScript, testing is a bit more predictable.
 
 # IMPORTANT!!!
 
-This plugin works only with webpack and is tested with the version fo webpack 4.41.5
-The plugin create a temporal folder with name "tests_build" inside cypress folder. After close the browser the folder will be deleted
+This plugin works only with webpack and is tested with the version of webpack 4.41.5
+The plugin creates a temporal folder with the name "tests_build" inside the `cypress` folder. After you close the browser the folder will be deleted.
 
 # Instalation
 
@@ -16,11 +16,11 @@ The plugin create a temporal folder with name "tests_build" inside cypress folde
 
 In the file cypres/plugins/index.js
 
-```
-    const { typescriptCypressTranspiler } = require('typescript-cypress')
+```js
+const { typescriptCypressTranspiler } = require('typescript-cypress')
 
-   const _module = {
-    rules: [
+const _module = {
+  rules: [
     {
       test: /\.tsx?$/,
       use: [
@@ -53,7 +53,7 @@ In the file cypres/plugins/index.js
   ]
 }
 
-    module.exports = (on, config)=>{
-        on('file:preprocessor', typescriptCypressTranspiler(_module))
-    }
+module.exports = (on, config) => {
+  on('file:preprocessor', typescriptCypressTranspiler(_module))
+}
 ```
